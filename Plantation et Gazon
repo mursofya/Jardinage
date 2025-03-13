@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucas Jardins - Plantation et gazon">
+    <title>Plantation et Gazon | Lucas Jardins</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lucas Jardins</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Nos services</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="equipe.html">Notre équipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Plantation et Gazon</h2>
+        <p>Nous réalisons la plantation de gazon naturel ou synthétique selon vos besoins.</p>
+        <img src="images/plantation-gazon.jpg" alt="Plantation de gazon">
+        <p><a href="toits-murs.html">→ Découvrir nos toits et murs végétalisés</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lucas Jardins - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
