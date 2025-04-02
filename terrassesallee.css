@@ -140,12 +140,12 @@ position: relative;
 }
 
 .hero-section h1 {
-color: #315E5B;
+color: #FAF3DD;
 font-family: 'Road Rage', cursive;
 padding: 10%;
 font-size: 120px;
 justify-content: flex-end;
-background-color: #4a7c59;
+background-color: #315E5B;
 background-position: no-repeat;
 max-width: 50%;
 }
