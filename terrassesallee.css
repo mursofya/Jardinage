@@ -1,4 +1,4 @@
-header{
+header {
   display: flex;
   max-width: 1440px;
   height: 112px;
@@ -12,6 +12,12 @@ header{
   left: 0;
   right: 0;
   z-index: 900;
+
+  .img {
+  display: flex;
+  justify-content: center;
+  mad-width: 1440 px;
+  width: 100%;
 
   @media (max-width: 600px) {
   height: 80px;
@@ -177,8 +183,7 @@ margin-bottom: 1%;
 }
 
 .info-section img {
-  width: 800px;
-  align-items: center;
+  width: 100%;
 }
 
 a[href^="mailto"] {
@@ -231,8 +236,8 @@ footer{
   margin-top: 5vw;
 }
 
-.info-section img {
-  width: 500px;
+.img {
+  width: 100%;
 }
     
 .text-links {
@@ -273,8 +278,8 @@ footer{
     margin-top: 2vw;
   }
 
-.info-section img {
-  width: 500px;
+.img {
+  width: 100%;
 }
       
   .text-links {
@@ -351,6 +356,10 @@ body {
   .info-section p {
     font-size: 18px;
   }
+
+  .img {
+  maw-width: 425px;
+}
  
   footer {
     display: flex;
@@ -358,10 +367,6 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-}
-
-.info-section img {
-  width: 500px;
 }
 
 #text-links-container {
