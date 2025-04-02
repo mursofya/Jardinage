@@ -145,7 +145,8 @@ font-family: 'Road Rage', cursive;
 padding: 10%;
 font-size: 120px;
 justify-content: flex-end;
-background-color: #8FC0A9;
+background-image: url('images/Terrasse.png');
+background-size: cover;
 background-position: no-repeat;
 max-width: 100%;
 }
@@ -156,21 +157,6 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 position: relative;
-background-image: url('images/Terrasse.png');
-background-size: cover;
-background-repeat: no-repeat;
-}
-
-.info-section h2 {
-color: #FAF3DD;
-font-size: 65px;
-display: flex;
-justify-content: center; /* Centrage horizontal */
-align-items: center; /* Centrage vertical */
-font-family: 'Staatliches';
-width: 100%;
-margin-top: 1%;
-margin-bottom: 1%;
 }
 
 .info-section p {
