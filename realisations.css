@@ -123,22 +123,6 @@ max-width: 100%;
 position: relative;
 }
 
-.text-section {
- color: #FAF3DD;
- background-color: #315E5B !important;
- font-family: 'Noto Serif', serif;
- font-size: 24px;
- max-width: 50%;
- text-align: left;
- top: 0;
- left: 12,5px;
-}
-
-.text-section p {
-    max-width: 100%;
-    padding: 15%;
-}
-
 .hero-section h1 {
 color: #315E5B;
 font-family: 'Road Rage', cursive;
@@ -147,7 +131,7 @@ font-size: 120px;
 justify-content: flex-end;
 background-color: #8FC0A9;
 background-position: no-repeat;
-max-width: 50%;
+max-width: 100%;
 }
 
 .info-section {
@@ -157,7 +141,7 @@ flex-wrap: wrap;
 display: flex;
 align-items: center;
 position: relative;
-background-image: url('images/REMPLIR.png');
+background-image: url('images/Terrasse.png');
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
