@@ -170,22 +170,8 @@ margin-top: 1%;
 margin-bottom: 1%;
 }
 
-.info-section h3 {
-color: #315e5b;
-font-family: 'Staatliches';
-font-size: 45px;
-margin-top: 1%;
-margin-bottom: 1%;
-}
-
 .info-section p {
   font-size: 25px;
-margin-top: 1%;
-margin-bottom: 1%;
-}
-
-ul {
-list-style-type: none; /* Enlève les puces */
 margin-top: 1%;
 margin-bottom: 1%;
 }
@@ -193,95 +179,6 @@ margin-bottom: 1%;
 a[href^="mailto"] {
 text-decoration: none;
 color: inherit;
-}
-
-.info-grid {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-justify-content: center;
-color: #315e5b;
-font-family: 'Noto Serif', serif;
-list-style-type: none;
-}
-
-.info-grid div {
-flex: 1 1 300px;
-padding: 20px;
-border-radius: 8px;
-}
-
-.press-section {
-display: flex;
-overflow: hidden;
-}
-
-.press-section h2 {
-font-size: 65px;
-color: #315e5b;
-font-family: 'Staatliches';
-text-align: center;
-line-height: normal;
-margin-bottom: 1%;
-margin-top: 3%;
-}
-
-.press-text{
-    max-width: 50%;
-}
-
-.press-text ul {
-flex: 1 1 300px;
-list-style: none;
-}
-
-.press-text ul li {
-margin-bottom: 10px;
-}
-
-.press-text ul li a {
-color: #396956;
-text-decoration: none;
-transition: color 0.3s;
-font-size: 30px;
-}
-
-.press-text ul li a:hover {
-color: #123524;
-}
-
-.partners-section h2 {
-color: #315e5b;
-text-align: center;
-font-family: "Staatliches";
-font-size: 65px;
-margin-top: 1%;
-margin-bottom: 1%;
-}
-
-.partners-grid {
-border: 4px solid #8FC0A9;
-border-radius: 20px;
-padding: 20px; 
-width: 90%;
-margin: 0 auto; 
-display: flex;
-flex-wrap: wrap; /* Autoriser le retour à la ligne des logos */
-justify-content: center; /* Centrer les logos horizontalement */
-align-items: center; /* Centrer les logos verticalement */
-gap: 20px;
-}
-
-.partners-grid img {
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-width: 150px;
-height: 150px;
-object-fit: contain;
-}
-
-.partners-grid img:hover {
-transform: scale(1.1);
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -323,22 +220,6 @@ footer {
    padding: 6%;
 }
 
-.info-grid div{
-  padding: 15px 20px;
-}
-
-.info-section ul li {
-  font-size: 25px;
-}
-
-.press-text{
-  max-width: 80%;
-}
-
-.press-text ul li a{
-  font-size: 25px;
-}
-
 footer{
   padding: 0 85px;
   gap: 20px;
@@ -377,29 +258,8 @@ footer{
     font-size: 40px;
   }
 
-  .info-section h3{
-    font-size: 25px;
-  }
-
   .info-section p {
     font-size: 16px;
-  }
-
-  .info-section ul li {
-    font-size: 16px;
-  }
-
-  .press-section h2 {
-    font-size: 40px;
-  }
-  
-  .press-text ul li a {
-    font-size: 16px;
-    line-height: 0.8;
-  }
-
-  .partners-section h2 {
-    font-size: 40px;
   }
   
   footer {
@@ -556,14 +416,6 @@ body {
       font-size: 15px;
     }
 
-    .press-text h2 {
-      font-size: 35px;
-    }
-
-    .partners-section h2{
-      font-size: 35px;
-    }
-
     .partenaires img {
       width: 90px;
   }
@@ -583,30 +435,6 @@ body {
     .info-section h2{
       font-size: 30px;
     }
-
-    .info-section h3{
-      font-size: 25px;
-    }
-
-    .video-container {
-      height: 90%;
-    }
-
-    .video-container iframe {
-      height: 90%;
-    }
-
-    .press-text h2 {
-      font-size: 30px;
-    }
-
-    .partners-section h2{
-      font-size: 30px;
-    }
-
-    .partners-grid {
-      padding: 12px; 
-      }
 
       footer{
         padding: 0%;
