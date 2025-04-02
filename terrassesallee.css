@@ -230,7 +230,9 @@ footer{
   margin-top: 5vw;
 }
 
-.img {
+.info-section img {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
     
@@ -272,7 +274,7 @@ footer{
     margin-top: 2vw;
   }
 
-.img {
+.info-section img {
   width: 100%;
 }
       
@@ -351,7 +353,7 @@ body {
     font-size: 18px;
   }
 
-  .img {
+  .info-section img {
   maw-width: 425px;
 }
  
