@@ -1,4 +1,4 @@
-header{
+header {
   display: flex;
   max-width: 1440px;
   height: 112px;
@@ -123,6 +123,22 @@ max-width: 100%;
 position: relative;
 }
 
+.text-section {
+ color: #FAF3DD;
+ background-color: #315E5B !important;
+ font-family: 'Noto Serif', serif;
+ font-size: 24px;
+ max-width: 50%;
+ text-align: left;
+ top: 0;
+ left: 12,5px;
+}
+
+.text-section p {
+    max-width: 100%;
+    padding: 15%;
+}
+
 .hero-section h1 {
 color: #315E5B;
 font-family: 'Road Rage', cursive;
@@ -135,16 +151,33 @@ max-width: 100%;
 }
 
 .info-section {
-width: 100%;
-height: 1458 px;
-flex-wrap: wrap;
+background-color: #8FC0A9;
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 position: relative;
 background-image: url('images/Terrasse.png');
-background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+}
+
+.info-section h2 {
+color: #FAF3DD;
+font-size: 65px;
+display: flex;
+justify-content: center; /* Centrage horizontal */
+align-items: center; /* Centrage vertical */
+font-family: 'Staatliches';
+width: 100%;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+.info-section p {
+color: #FAF3DD;
+font-size: 25px;
+margin-top: 1%;
+margin-bottom: 1%;
 }
 
 a[href^="mailto"] {
@@ -196,10 +229,6 @@ footer{
   gap: 20px;
   margin-top: 5vw;
 }
-
-.partenaires img{
-  width: 120px;
-}
     
 .text-links {
   font-size: 15px;
@@ -224,15 +253,19 @@ footer{
   .text-section{
     font-size: 17px;
   }
+
+  .info-section h2{
+    font-size: 40px;
+  }
+
+  .info-section p {
+    font-size: 16px;
+  }
   
   footer {
     padding: 0 60px;
     gap: 20px;
     margin-top: 2vw;
-  }
-
-  .partenaires img{
-    width: 100px;
   }
       
   .text-links {
@@ -306,6 +339,9 @@ body {
     font-size: 18px;
   }
 
+  .info-section p {
+    font-size: 18px;
+  }
  
   footer {
     display: flex;
@@ -351,17 +387,28 @@ body {
     .text-section {
      margin-top: -17%;
     }
+    
+    .info-section h2{
+      font-size: 35px;
+    }
 
     .info-section ul li {
       font-size: 15px;
     }
-}
+  
+    .info-section p {
+      font-size: 15px;
+    }
 
 @media screen and (max-width: 320px) {
 
     .text-section {
      margin-top: -20%;
      font-size: 18px;
+    }
+    
+    .info-section h2{
+      font-size: 30px;
     }
 
       footer{
@@ -370,5 +417,4 @@ body {
 
 .text-links {
   font-size: 12px;
-}
 }
