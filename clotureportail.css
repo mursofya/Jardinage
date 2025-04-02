@@ -151,6 +151,8 @@ max-width: 50%;
 }
 
 .info-section {
+width: 100%;
+height: 1458 px;
 flex-wrap: wrap;
 display: flex;
 align-items: center;
