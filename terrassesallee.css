@@ -177,7 +177,8 @@ margin-bottom: 1%;
 }
 
 .info-section img {
-  width: 500px;
+  width: 800px;
+  align-items: center;
 }
 
 a[href^="mailto"] {
@@ -231,7 +232,7 @@ footer{
 }
 
 .info-section img {
-  width: 200px;
+  width: 500px;
 }
     
 .text-links {
@@ -273,7 +274,7 @@ footer{
   }
 
 .info-section img {
-  width: 200px;
+  width: 500px;
 }
       
   .text-links {
@@ -360,7 +361,7 @@ body {
 }
 
 .info-section img {
-  width: 200px;
+  width: 500px;
 }
 
 #text-links-container {
@@ -402,10 +403,6 @@ body {
     
     .info-section h2{
       font-size: 35px;
-    }
-
-    .info-section h3{
-      font-size: 25px;
     }
 
     .info-section ul li {
