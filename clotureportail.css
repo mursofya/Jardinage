@@ -151,12 +151,11 @@ max-width: 50%;
 }
 
 .info-section {
-background-color: #8FC0A9;
 display: flex;
-flex-wrap: wrap;
 align-items: center;
 position: relative;
 background-image: url('images/portail1.png');
+background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 }
