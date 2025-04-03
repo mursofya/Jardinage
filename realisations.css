@@ -87,9 +87,10 @@ header{
 height: 80px;
 }
 
-.header img {
 @media (max-width: 600px) {
+.header img {
   height: 60px;
+}
 }
 
 * ⁠{
@@ -188,22 +189,6 @@ text-align: center;
 height: 460px;
 max-width: 100%;
 position: relative;
-}
-
-.text-section {
- color: #FAF3DD;
- background-color: #315E5B !important;
- font-family: 'Noto Serif', serif;
- font-size: 24px;
- max-width: 50%;
- text-align: left;
- top: 0;
- left: 12.5px;
-}
-
-.text-section p {
-    max-width: 100%;
-    padding: 15%;
 }
 
 .hero-section h1 {
@@ -312,10 +297,6 @@ footer{
     padding: 5%;
   }
 
-  .text-section{
-    font-size: 17px;
-  }
-
   .info-section p {
     font-size: 16px;
   }
@@ -379,13 +360,6 @@ body {
   height: auto;
   }
   
-  .text-section {
-   font-size: 20px;
-   max-width: 100%;
-   order: 2;
-   margin-top: -15%;
-  }
-  
   .hero-section h1 {
   padding: 10%;
   font-size: 85px;
@@ -441,12 +415,6 @@ body {
   .nav {
     width: 50%;
   }
-
-    .text-section {
-     margin-top: -17%;
-    }
-
-
     .info-section ul li {
       font-size: 15px;
     }
@@ -457,15 +425,11 @@ body {
 
 @media screen and (max-width: 320px) {
 
-    .text-section {
-     margin-top: -20%;
-     font-size: 18px;
-    }
-
       footer{
         padding: 0%;
       }
 
 .text-links {
   font-size: 12px;
+}
 }
