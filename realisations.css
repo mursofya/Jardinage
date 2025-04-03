@@ -14,27 +14,6 @@ header{
     z-index: 900;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.menu-container {
-    position: relative;
-    margin-right: 3%;
-}
-
-.burger {
-    display: flex;
-    flex-direction: column;
-    width: 70px;
-    height: 25px;
-    justify-content: space-between;
-    cursor: pointer;
-    z-index: 2;
-}
-
 .bar {
     width: 70px;
     height: 4px;
