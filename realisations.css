@@ -256,12 +256,6 @@ display: block; /* Supprime tout espace blanc autour */
 margin: 0 auto; /* Centre les images */
 }
 
-.img {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
 .info-section p {
 color: #FAF3DD;
 font-size: 25px;
