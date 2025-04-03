@@ -14,13 +14,6 @@ header{
     z-index: 900;
 }
 
-.img{
-    display: flex;          
-    justify-content: center;
-    max-width: 1440px;
-    width: 100%;
-}
-
 .chapeau h1{
     color: #4A7C59;
     text-align: center;
@@ -35,15 +28,6 @@ header{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    padding-top: 112px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background: #FAF3DD;
 }
 
 .menu-container {
