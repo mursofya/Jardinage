@@ -106,10 +106,6 @@ body {
     left: 0;
 }
 
-.nav {
-    display: none;
-}
-
 .nav.active {
     display: block;
 }
