@@ -87,9 +87,10 @@ header{
 height: 80px;
 }
 
-.header img {
 @media (max-width: 600px) {
+.header img {
   height: 60px;
+}
 }
 
 * ⁠{
@@ -220,7 +221,7 @@ max-width: 50%;
 
 .info-section {
 width: 100%;
-height: 1000px;
+height: 400px;
 flex-wrap: wrap;
 display: flex;
 align-items: center;
