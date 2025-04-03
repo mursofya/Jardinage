@@ -106,10 +106,6 @@ body {
     left: 0;
 }
 
-.nav {
-    display: none;
-}
-
 .nav.active {
     display: block;
 }
@@ -138,9 +134,10 @@ body {
 height: 80px;
 }
 
-.header img {
 @media (max-width: 600px) {
-  height: 60px;
+    .header img {
+        height: 60px;
+    }
 }
 
 * ⁠{
@@ -250,7 +247,7 @@ position: relative;
  max-width: 50%;
  text-align: left;
  top: 0;
- left: 12,5px;
+ left: 12.5px;
 }
 
 .text-section p {
