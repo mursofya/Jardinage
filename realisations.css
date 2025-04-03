@@ -234,10 +234,10 @@ padding: 10%;
 font-size: 120px;
 text-align: center;
 width: 100%;
-background-image: url('images/Terrasse.png');
-background-size: 100% auto;
+background-image: url('images/Terrasse.png') !important;
+background-size: 100% auto !important;
 background-repeat: no-repeat;
-background-position: center;
+background-position: center !important;
 max-width: 100%;
 }
 
