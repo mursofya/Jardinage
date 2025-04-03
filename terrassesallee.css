@@ -157,6 +157,20 @@ background: #FAF3DD;
 padding-top: 112px
 }
 
+.menu-container {
+position: relative;
+margin-right: 3%;
+}
+
+.burger {
+display: flex;
+flex-direction: column;
+width: 70px;
+height: 25px;
+justify-content: space-between;
+cursor: pointer;
+z-index: 3;
+
   @media (max-width: 600px) {
   width: 50px;
   height: 20px;
