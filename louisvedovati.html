@@ -10,38 +10,60 @@
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Road Rage:wght@400&display=swap" />
     
+    <!-- Open Graph Meta Tags (pour Facebook, LinkedIn et autres réseaux sociaux) -->
+    <meta property="og:title" content="Louis Vedovati et ses multiples casquettes"> <!-- Titre de la page affiché dans l’aperçu -->
+    <meta property="og:description" content="Passionné par les arts et les sciences humaines. Découvrez son parcours."> <!-- Courte description -->
+    <meta property="og:image" content="https://louisvedovati-vedovati.fr/images/louis-vedovati.jpg"> <!-- Image mise en avant dans l’aperçu, en supposant que le domaine louisvedovati-vedovati.fr existe et que l'image se trouve dans le dossier "images" -->
+    <meta property="og:url" content="https://louisvedovati-vedovati.fr/parcours-louis-vedovati.html"> <!-- URL canonique -->
+    <meta property="og:type" content="profile"> <!-- Type de contenu "profile" car il s'agit d'une biographie -->
+    <meta property="og:site_name" content="Louis Vedovati"> <!-- Nom du site affiché sous l’aperçu -->
+    <!-- Métadonnées spécifiques au type "profile" -->
+    <meta property="profile:first_name" content="Louis"> <!-- Prénom du chef -->
+    <meta property="profile:last_name" content="Vedovatit"> <!-- Nom du chef -->
+    <meta property="profile:username" content="louis_vedovati"> <!-- Nom d’utilisateur unique -->
+    <meta property="profile:gender" content="male"> <!-- Genre du profil -->
+
+    <!-- Twitter Card Meta Tags (pour un meilleur affichage sur X / Twitter) -->
+    <meta name="twitter:card" content="summary_large_image"> <!-- Type de carte avec une grande image -->
+    <meta name="twitter:title" content="Louis Vedovati et ses multiples casquettes"> <!-- Titre affiché sur X / Twitter -->
+    <meta name="twitter:description" content="Passionné par les arts et les sciences humaines. Découvrez son parcours."> <!-- Description affichée sous l’aperçu -->
+    <meta name="twitter:image" content="https://louisvedovati-vedovati.fr/images/louis-vedovati.jpg"> <!-- Image de l'aperçu sur X / Twitter -->
+    <meta name="twitter:site" content="@slouisvedovati"> <!-- Compte X / Twitter" -->
+    <meta name="twitter:creator" content="@louisvedovati"> <!-- Compte X / Twitter du créateur -->
+
+     
    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Realisation",
-  "name": "Réalisations",
-  "description": "Service professionnel par un jardinier agréé.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Entreprise de jardinage Lucas Jardins",
-    "url": "https://entreprise-jardinier-lucasjardins-nice.fr/contact.html",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://entreprise-jardinier-lucasjardins-nice.fr/images/logo.png",
-      "width": 70,
-      "height": 25
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1 rue Saint-François",
-      "addressLocality": "Nice",
-      "addressRegion": "PACA",
-      "addressCountry": "FR"
+    {
+       "@context": "https://schema.org",
+       "@type": "Person",
+       "name": "Louis Vedovati",
+       "alternateName": "Louis aux multiples casquettes",
+       "description": "Louis Vedovati est étudiant en Sciences de l’Information et de la Communication, spécialisation Industries Médiatiques et Créatives à l’Université de Nice Côte d’Azur. Il est passionné par les arts et les Sciences Humaines.",
+       "birthDate": "2001-07-22",
+       "birthPlace": {
+           "@type": "Place",
+           "name": "Évreux, France",
+           "address": {
+               "@type": "PostalAddress",
+               "addressLocality": "Nice",
+               "addressCountry": "FR"
+           }
+       },
+       "nationality": "French",
+       "gender": "Male",
+       "height": "1.70",
+       "url": "https://linktr.ee/LouisVedovati",
+       "sameAs": [
+           "https://www.instagram.com/louisvedovati/?hl=fr"
+       ]
     }
-  }
-}
 </script>
 </head>
   
        <body>
 	 <header>
             <a href="index.html" class="home-icon">
-                <img src="images/logo.png" alt="Lucas Jardins - Accueil">
+                <img src="images/logo.png" alt="Louis Vedovati - Accueil">
             </a>
             <div class="menu-container">
                 <div class="burger" id="burger">
@@ -52,25 +74,8 @@
                 <nav class="nav" id="nav">
                     <ul>
                         <li><a href="index.html" class="menu">Accueil</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="menu" id="services-btn">Services</a>
-                            <ul class="dropdown-content" id="services-menu">
-                                <li><a href="amenagement.html">Aménagement paysager</a></li>
-                                <li><a href="entretien.html">Entretien de jardin</a></li>
-                                <li><a href="terrassesallee.html">Création de terrasses et allées</a></li>
-                                <li><a href="clotureportail.html">Pose de clôtures et portails</a></li>
-                                <li><a href="elagage.html">Élagage et abattage d’arbres</a></li>
-                                <li><a href="arrosage.html">Arrosage automatique et éclairage extérieur</a></li>
-                                <li><a href="plantation.html">Plantation et gazon</a></li>
-                                <li><a href="toits.html">Toits et murs végétalisés</a></li>
-                                <li><a href="bassins.html">Bassins et fontaines</a></li>
-                                <li><a href="jardins.html">Jardins écologiques et permaculture</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="realisations.html" class="menu">Réalisations</a></li>
-                        <li><a href="faq.html" class="menu">FAQ</a></li>
-                        <li><a href="contact.html" class="menu">Contact</a></li>
-                        <li><a href="equipe.html" class="menu">Notre Équipe</a></li>
+                        <li><a href="#parcours">Parcours</a></li>
+                        <li><a href="#projets">Projets</a></li>
                     </ul>
                 </nav>
              </div>
@@ -80,6 +85,16 @@
 	  <div class="hero-section">
 		  <h1>Louis Vedovati</h1>
 	  </div>
+
+      <section id="parcours">
+        <h2>Parcours et formation</h2>
+        <p>Louis Vedovati est étudiant en Sciences de l’Information et de la Communication, spécialisation Industries Médiatiques et Créatives à l’Université de Nice Côte d’Azur. Il est passionné par la culture et les sciences humaines. Louis participe à un atelier de photographie au 109 à Nice, sous la direction bienveillante de l'artiste Eléonora Strano. Cet espace créatif est pour lui l’opportunité d’explorer davantage son activité photographique et de partager sa passion tout en cultivant son sens artistique. En tant que co-fondateur, ex co-président et ex chargé de partenariat et communication d'ADELPHES, une association engagée contre les discriminations, Louis a pu œuvrer à la sensibilisation et la promotion de l'égalité. Cet engagement a renforcé son sens de l'écoute, de l'inclusivité, et sa capacité à créer des partenariats impactants. Son parcours s’étend également au théâtre, où il est hôte de salle à Anthéa (Théâtre d’Antibes), et bénévole au sein d’une compagnie de théâtre amateur, assurant divers rôles tels que le covoiturage, la billetterie et l’aide à la conception graphique. Ces expériences enrichissent son esprit d'équipe et son adaptabilité dans des environnements dynamiques. En parallèle, Louis contribue au magazine Nouvelle-Vague en tant que rédacteur et photographe bénévole. Ce qui le motive ? La créativité, la curiosité, et l'envie constante d’apprendre et de s’adapter à de nouveaux défis. Que ce soit à travers la photographie, l’écriture de poésie, ou son engagement associatif, Louis est déterminé à contribuer à des projets qui résonnent avec ses valeurs humaines : bienveillance, inclusion, et échange. Attention ! Quand il n'est pas plongé dans un livre, une expo, un musée ou à la salle de sport, vous le trouverez peut-être dans une salle de cinéma (en quête d'inspiration pour son prochain projet, qui sait ?) !</p>
+    </section>
+
+    <section id="projets">
+        <h2>Projets et ambitions</h2>
+        <p>Louis Vedovati souhaiterai entrer dans le Master Médias et Humanités Numériques de l'Université Côte d'Azur. Son mémoire s'intitule : Vers une géographie communicationnelle du rejet : La spatialisation médiatique de l’exclusion en France. Comment les discours médiatiques et numériques participent-ils à façonner une géographie du rejet et structurent-ils l’imaginaire urbain du débat public en France, entre espace virtuel et territoire physique ?'.</p>
+    </section>
   
   </body>
   	
