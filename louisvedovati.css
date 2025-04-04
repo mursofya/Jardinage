@@ -1,0 +1,361 @@
+/* RESET DE BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* STYLES DU BODY */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #FAF3DD;
+  padding-top: 112px; /* Assure un espacement pour le header fixe */
+  font-family: 'Noto Serif', serif; /* Application de la police Noto Serif */
+}
+
+/* HEADER FIXE */
+header {
+  display: flex;
+  max-width: 1440px;
+  height: 112px;
+  padding: 2px 38px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: #FAF3DD;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 900;
+}
+
+/* BOUTON DE MENU (BURGER) */
+.bar {
+  width: 70px;
+  height: 4px;
+  background: #4A7C59;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 25px;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.burger .bar {
+  width: 70px;
+  height: 4px;
+  background: #4A7C59;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FAF3DD;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 24px;
+}
+
+.dropdown-content.active {
+  display: block;
+}
+
+.services {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .burger {
+      width: 50px;
+      height: 20px;
+  }
+
+  .bar {
+      width: 50px;
+  }
+}
+
+/* NAVIGATION FIXE */
+.nav {
+  position: fixed;
+  top: 0;
+  left: -50%;
+  width: 30%;
+  height: 100%;
+  background-color: #FAF3DD;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 20px 0;
+}
+
+.nav ul li a {
+  color: #284732;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Staatliches', sans-serif; /* Application de la police Staatliches */
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.nav.open {
+  left: 0;
+}
+
+.nav.active {
+  display: block;
+}
+
+/* HERO SECTION */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 460px;
+  max-width: 100%;
+  position: relative;
+  background-image: url('images/louis.vedovati.png');
+  background-size: cover; /* Image responsive */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.hero-section h1 {
+  color: #FAF3DD;
+  font-family: 'Road Rage', cursive; /* Application de la police Road Rage */
+  padding: 10%;
+  font-size: 120px;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    min-height: 50vh; /* Ajuste la hauteur pour éviter le vide */
+    background-size: cover;
+  }
+
+  .hero-section h1 {
+    font-size: 95px;
+    padding: 6%;
+  }
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 85px;
+  gap: 20px;
+  margin-top: 3vw;
+}
+
+#text-links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-links {
+  color: #4a7c59;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration-line: underline;
+}
+
+#icon-links-container {
+  display: flex;
+  gap: 30px;
+}
+
+.ic {
+  width: 54px;
+  height: 52px;
+}
+
+/* MEDIA QUERIES POUR ADAPTER AUX ÉCRANS MOYENS */
+@media screen and (max-width: 1024px) {
+  .hero-section {
+      min-height: 70vh; /* Ajuste la hauteur pour éviter un espace inutile */
+      background-attachment: scroll;
+  }
+  
+  .hero-section h1 {
+      padding: 6%;
+  }
+
+  footer {
+      padding: 0 85px;
+      gap: 20px;
+      margin-top: 5vw;
+  }
+
+  .text-links {
+      font-size: 15px;
+      line-height: 160%;
+  }
+
+  #icon-links-container {
+      gap: 25px;
+  }
+}
+
+/* MEDIA QUERIES POUR ADAPTER AUX PETITS ÉCRANS */
+@media screen and (max-width: 768px) {
+ .hero-section {
+      height: auto;
+      min-height: 60vh;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: scroll;
+  }
+
+  .hero-section h1 {
+      font-size: 95px;
+      padding: 5%;
+  }
+
+  footer {
+      padding: 0 60px;
+      gap: 20px;
+      margin-top: 2vw;
+  }
+
+  .text-links {
+      font-size: 13px;
+      line-height: 150%;
+  }
+
+  #icon-links-container {
+      gap: 20px;
+  }
+
+  .ic {
+      width: 45px;
+      height: 43px;
+  }
+}
+
+/* MEDIA QUERIES POUR ÉCRANS TRÈS PETITS */
+@media screen and (max-width: 425px) {
+  header {
+      height: 80px;
+      padding: 0px 11px;
+  }
+
+  header img {
+      max-width: 70px;
+  }
+
+  body {
+      padding-top: 10px;
+  }
+
+  .bar {
+      width: 40px;
+      height: 4px;
+      margin-left: 30%;
+  }
+
+  .nav {
+      left: -60%;
+      width: 40%;
+  }
+
+  .nav ul li {
+      margin: 30px 0;
+  }
+
+  .nav ul li a {
+      font-size: 40px;
+  }
+
+  .hero-section {
+      min-height: 50vh;
+  }
+
+  .hero-section h1 {
+      padding: 10%;
+      font-size: 85px;
+      max-width: 100%;
+      order: 1;
+  }
+
+  footer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+  }
+
+  #text-links-container {
+      position: relative;
+      margin-right: 50%;
+  }
+
+  .text-links {
+      font-size: 16px;
+      line-height: 150%;
+  }
+
+  #icon-links-container {
+      gap: 10px;
+      position: relative;
+      margin-top: -20%;
+      margin-left: 50%;
+  }
+
+  .ic {
+      width: 45px;
+      height: 43px;
+  }
+}
+
+/* MEDIA QUERIES POUR ÉCRANS TRÈS PETITS */
+@media screen and (max-width: 375px) {
+  header img {
+      max-width: 60px;
+  }
+
+  .nav {
+      width: 50%;
+  }
+}
+
+/* MEDIA QUERIES POUR TOUTE PETITE TAILLE D'ÉCRAN */
+@media screen and (max-width: 320px) {
+  footer {
+      padding: 0%;
+  }
+
+  .text-links {
+      font-size: 12px;
+  }
+}
