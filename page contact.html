@@ -1,27 +1,58 @@
-<h1>Lucas Jardins</h1>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lucas Jardins - Page contact">
     <title>Page contatct| Lucas Jardins</title>
-    <link rel="stylesheet" href="stylepg.css">
+    <link rel="stylesheet" href="stylepg1.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/9a92887742.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;900&family=Staatliches&family=Road+Rage&display=swap">
 </head>
-        <nav>
+<header>
+    <a href="index.html" class="home-icon">
+        <img src="images/logo.png" alt="Lucas Jardins - Accueil">
+    </a>
+        </div>
+    <div class="menu-container">
+        <div class="burger" id="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Nos services</a></li>
-                <li><a href="realisations.html">Réalisations</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="equipe.html">Notre équipe</a></li>
+                <li><a href="index.html" class="menu">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#" class="menu" id="services-btn">Services</a>
+                    <ul class="dropdown-content" id="services-menu">
+                        <li><a href="amenagement.html">Aménagement paysager</a></li>
+                        <li><a href="entretien.html">Entretien de jardin</a></li>
+                        <li><a href="terrassesallee.html">Création de terrasses et allées</a></li>
+                        <li><a href="clotureportail.html">Pose de clôtures et portails</a></li>
+                        <li><a href="elagage.html">Élagage et abattage d’arbres</a></li>
+                        <li><a href="arrosage.html">Arrosage automatique et éclairage extérieur</a></li>
+                        <li><a href="plantation.html">Plantation et gazon</a></li>
+                        <li><a href="toits.html">Toits et murs végétalisés</a></li>
+                        <li><a href="bassins.html">Bassins et fontaines</a></li>
+                        <li><a href="jardins.html">Jardins écologiques et permaculture</a></li>
+                    </ul>
+                </li>
+                <li><a href="realisations.html" class="menu">Réalisations</a></li>
+                <li><a href="faq.html" class="menu">FAQ</a></li>
+                <li><a href="contact.html" class="menu">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+    <script src="index.js"></script>
+</header>
+
+<div class="chapeau">
+    <h1>Contactez-nous</h1>
+</div>
     <main>
-        <h2>Contactez-nous</h2>
+        <h2>Contact</h2>
         <p>Remplissez le formulaire ci-dessous pour toute demande d’information ou devis.</p>
         
         <form action="traitement-formulaire.php" method="post">
