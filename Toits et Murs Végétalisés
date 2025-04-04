@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucas Jardins - Toits et murs végétalisés">
+    <title>Toits et Murs Végétalisés | Lucas Jardins</title>
+    <link rel="stylesheet" href="stylepg.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9a92887742.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;900&family=Staatliches&family=Road+Rage&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Lucas Jardins</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Toits et Murs Végétalisés</h2>
+            <p>Nous créons des espaces verts innovants pour vos toitures et murs.</p>
+            <figure>
+                <img src="images/toits-murs.jpg" alt="Mur végétalisé avec des plantes">
+                <figcaption>Un exemple de murs végétalisé conçu par Lucas Jardins.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h3>Pourquoi choisir un toit ou un mur végétalisé ?</h3>
+            <ul>
+                <li>Améliore l'isolation thermique et acoustique.</li>
+                <li>Favorise la biodiversité en milieu urbain.</li>
+                <li>Réduit la pollution et absorbe le CO₂.</li>
+                <li>Apporte une touche esthétique et naturelle à votre bâtiment.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Nos services de végétalisation</h3>
+            <p>Lucas Jardins vous accompagne dans la création et l’entretien de vos espaces verts en hauteur.</p>
+            <ul>
+                <li><strong>Étude et conception :</strong> Analyse de la structure du bâtiment et choix des végétaux adaptés.</li>
+                <li><strong>Installation sur mesure :</strong> Mise en place de systèmes de drainage et d’irrigation intégrés.</li>
+                <li><strong>Entretien régulier :</strong> Suivi et maintenance pour assurer la pérennité de votre toiture végétale.</li>
+            </ul>
+        </section>
+        
+        <p><a href="plantation-gazon.html">← Retour à la plantation de gazon</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lucas Jardins - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
