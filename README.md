@@ -4,7 +4,7 @@ Page d’accueil  / Service 1 : Aménagement paysager  / Service 2 : Entretien d
 
 🔵 Personne 2 : LOUIS 
 
-Service 3 : Création de terrasses et allées (HTML (+ JSON, OGP et Twitter Cards), CSS, JS) / Service 4 : Pose de clôtures et portails  (HTML (+ JSON, OGP et Twitter Cards), CSS, JS) / Page réalisations (HTML (+ JSON, OGP et Twitter Cards), CSS, JS) / Page personnelle (HTML (+ JSON), CSS, JS)
+Service 3 : Création de terrasses et allées (HTML (+ JSON, OGP et Twitter Cards), CSS, JS) / Service 4 : Pose de clôtures et portails  (HTML (+ JSON, OGP et Twitter Cards), CSS, JS) / Page réalisations (HTML (+ JSON, OGP et Twitter Cards), CSS, JS) / Page personnelle (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
 
 🟠 Personne 3 : LUCIA 
 
