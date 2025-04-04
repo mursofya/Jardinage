@@ -240,7 +240,6 @@ footer {
     .hero-section {
         height: 390px;
         background-size: contain; /* S’assure que l’image ne déborde pas */
-        background-attachment: scroll; /* Évite l’effet de parallaxe sur mobile */
     }
 
     .hero-section h1 {
