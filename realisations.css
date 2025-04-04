@@ -239,7 +239,9 @@ footer {
 @media screen and (max-width: 768px) {
     .hero-section {
         height: 390px;
-        background-size: contain; /* S’assure que l’image ne déborde pas */
+        min-height: 100vh;
+        background-size: cover;
+        background-attachment: scroll;
     }
 
     .hero-section h1 {
