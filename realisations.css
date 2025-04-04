@@ -138,11 +138,10 @@ header {
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    padding: 40px 0; /* Ajout d'un padding pour espacement */
 }
 
 .info-section img {
-    max-width: 45%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
