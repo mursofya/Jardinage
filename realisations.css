@@ -215,6 +215,11 @@ footer {
 
 /* MEDIA QUERIES POUR ADAPTER AUX ÉCRANS MOYENS */
 @media screen and (max-width: 1024px) {
+    .hero-section {
+        min-height: 70vh; /* Ajuste la hauteur pour éviter un espace inutile */
+        background-attachment: scroll; /* Fixe le problème sur mobile */
+    }
+    
     .hero-section h1 {
         padding: 6%;
     }
@@ -237,10 +242,11 @@ footer {
 
 /* MEDIA QUERIES POUR ADAPTER AUX PETITS ÉCRANS */
 @media screen and (max-width: 768px) {
-    .hero-section {
-        height: 390px;
-        min-height: 100vh;
-        background-size: cover;
+   .hero-section {
+        height: auto;
+        min-height: 60vh; /* Ajuste la hauteur pour éviter un vide */
+        background-size: cover; /* Remplit mieux l’espace */
+        background-position: center center; /* Centre bien l’image */
         background-attachment: scroll;
     }
 
@@ -309,8 +315,7 @@ footer {
     }
 
     .hero-section {
-        flex-direction: column;
-        height: auto;
+        min-height: 50vh; /* Réduit encore pour petits écrans */
     }
 
     .hero-section h1 {
