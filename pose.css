@@ -221,7 +221,7 @@ max-width: 50%;
 
 .info-section {
 width: 100%;
-height: 500px;
+height: 60vh;
 flex-wrap: wrap;
 display: flex;
 align-items: center;
@@ -319,6 +319,10 @@ footer{
     font-size: 17px;
   }
 
+  .info-section {
+  height: 45vh;
+  }
+    
   .info-section h2{
     font-size: 40px;
   }
@@ -396,8 +400,8 @@ body {
   order: 1;
   }
 
-  .info-section ul li {
-    font-size: 18px;
+  .info-section {
+    height: 40vh; /* ajouté */
   }
  
   footer {
@@ -449,9 +453,9 @@ body {
       font-size: 35px;
     }
 
-    .info-section ul li {
-      font-size: 15px;
-    }
+    .info-section h2 {
+    font-size: 35px;
+  }
 
 @media screen and (max-width: 320px) {
 
@@ -464,9 +468,9 @@ body {
       font-size: 30px;
     }
 
-      footer{
-        padding: 0%;
-      }
+    footer{
+      padding: 0%;
+    }
     
 .text-links {
   font-size: 12px;
