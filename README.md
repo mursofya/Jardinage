@@ -2,9 +2,10 @@ Joyeux anniversaire à vous !
 
 🟢 Personne 1 : MURZAEVA Sofya
 
-- Page d’accueil + Menu (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
-- Service 1 : Aménagement paysager (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
-- Service 2 : Entretien de jardin (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
+- Page d’accueil (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
+- Menu (HTML, CSS, JS ; L'ensemble du code a été pensé pour être facilement intégré dans chaque page individuelle par les étudiant(e)s. L’affichage peut légèrement varier selon la manière dont chacun a intégré le menu dans sa propre structure de page)
+- Service 1 : Aménagement paysager (HTML (+ JSON, OGP et Twitter Cards), CSS)
+- Service 2 : Entretien de jardin (HTML (+ JSON, OGP et Twitter Cards), CSS)
 - Page personnelle (HTML (+ JSON, OGP et Twitter Cards), CSS)
 
 🔵 Personne 2 : VEDOVATI Louis 
