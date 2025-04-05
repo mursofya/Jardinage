@@ -149,6 +149,7 @@ header {
     display: block;
 }
 
+/* Footer */
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -157,6 +158,103 @@ footer {
     padding: 0 85px;
     gap: 20px;
     margin-top: 3vw;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 38px; /* Même padding que le header */
+    background-color: #FAF3DD;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 3vw;
+    max-width: 1440px; /* Limite la largeur comme dans le header */
+}
+
+#text-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-links {
+    color: #4a7c59;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    text-decoration-line: underline;
+}
+
+#icon-links-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ic {
+    width: 54px;
+    height: 52px;
+}
+
+/* Styles de mise en page pour les petites tailles d'écran */
+@media (max-width: 1024px) {
+    footer {
+        padding: 20px 20px; /* Ajuste les espacements pour les écrans plus petits */
+    }
+
+    #text-links-container {
+        flex-direction: row; /* Aligne horizontalement les liens textuels sur les petites résolutions */
+    }
+
+    #icon-links-container {
+        gap: 15px; /* Réduit l'écart entre les icônes */
+    }
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 15px 20px; /* Ajuste encore pour les écrans très petits */
+    }
+
+    .text-links {
+        font-size: 16px; /* Réduit la taille de police pour les petits écrans */
+    }
+
+    .ic {
+        width: 40px;
+        height: 40px; /* Réduit la taille des icônes */
+    }
+}
+
+/* Conteneur pour les liens texte dans le footer */
+#text-links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles pour les liens texte dans le footer */
+.text-links {
+    color: #4a7c59;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    text-decoration-line: underline;
+}
+
+/* Conteneur pour les icônes dans le footer */
+#icon-links-container {
+    display: flex;
+    gap: 30px;
+}
+
+/* Style pour les icônes dans le footer */
+.ic {
+    width: 54px;
+    height: 52px;
 }
 
 /* Media Queries */
