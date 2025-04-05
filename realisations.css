@@ -139,6 +139,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: scroll; /* important pour mobile */
 }
 
 .hero-section h1 {
@@ -216,7 +217,7 @@ footer {
 /* MEDIA QUERIES POUR ADAPTER AUX ÉCRANS MOYENS */
 @media screen and (max-width: 1024px) {
     .hero-section {
-        min-height: 70vh; /* Ajuste la hauteur pour éviter un espace inutile */
+        min-height: 70vh;
         background-attachment: scroll; /* Fixe le problème sur mobile */
     }
     
@@ -244,9 +245,9 @@ footer {
 @media screen and (max-width: 768px) {
    .hero-section {
         height: auto;
-        min-height: 60vh; /* Ajuste la hauteur pour éviter un vide */
-        background-size: cover; /* Remplit mieux l’espace */
-        background-position: center center; /* Centre bien l’image */
+        min-height: 60vh;
+        background-size: cover; 
+        background-position: center center;
         background-attachment: scroll;
     }
 
@@ -315,7 +316,7 @@ footer {
     }
 
     .hero-section {
-        min-height: 50vh; /* Réduit encore pour petits écrans */
+        min-height: 50vh;
     }
 
     .hero-section h1 {
