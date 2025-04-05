@@ -10,6 +10,16 @@
   	    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap" />
   	    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Road Rage:wght@400&display=swap" />
         <meta name="description" content="REMPLIR">
+         <!-- JSON-LD data -->
+         <script type="application/ld+json">
+            {
+                "@context": "https://json-ld.org/contexts/person.jsonld",
+                "@id": "http://dbpedia.org/resource/John_Lennon",
+                "name": "John Lennon",
+                "born": "1940-10-09",
+                "spouse": "http://dbpedia.org/resource/Cynthia_Lennon"
+            }
+            </script>
     </head>
     <body>
             <div class="container">
@@ -55,9 +65,9 @@
 <div class="container">
     <div class="chapeau"><div class="service">
     <h2>Arrosage automatique et éclairage extérieur</h2>
-    <div class="image-container">
-        <img src="images/arrosage.jpg" alt="Arrosage automatique">
-        <img src="images/eclairage.jpg" alt="Éclairage extérieur">
+     <!-- Image avec taille modifiée -->
+     <img src="images/arrosage.jpg" width="400" height="200" alt="Élagage d'arbres"><img src="images/eclairage.jpg" width="400" height="200" alt="Élagage d'arbres">
+    <div class="image-container"></div>
     </div>
     <p>Nous installons des systèmes d’arrosage automatique et des éclairages extérieurs pour embellir vos espaces verts et optimiser leur entretien.
         Un bon éclairage permet non seulement de mettre en valeur votre jardin, mais aussi d’assurer la sécurité autour de votre maison en évitant les zones d’ombre.</p>
