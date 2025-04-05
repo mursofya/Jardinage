@@ -228,6 +228,8 @@ align-items: center;
 position: relative;
 background-image: url('images/portail1.png');
 background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .info-section h2 {
