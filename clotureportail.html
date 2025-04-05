@@ -28,32 +28,88 @@
     <meta name="twitter:site" content="@lucasjardins" />
     <meta name="twitter:creator" content="@louisvedovati" />
 	  
-<script type="application/ld+json">
-	{
-	{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Création de clôtures et portails",
-  "description": "Service professionnel de création de clôtures et portails par un jardinier agréé.",
-  "provider":  {
-    "type": "Gardener",
-    "name": "Entreprise de jardinage Lucas Jardins",
-    "url": "https://mursofya.github.io/lucasjardins/",
-     "logo": {
-         "@type": "ImageObject",
-         "url": "https://mursofya.github.io/lucasjardins/images/logo.png",
-         "width": 70,
-         "height": 25
-     },
-     "address": {
-         "@type": "PostalAddress",
-         "streetAddress": "1 rue Saint-François",
-         "addressLocality": "Nice",
-         "addressRegion": "PACA",
-         "addressCountry": "FR"
-    }
-  }
-}
+    <!-- Données structurées JSON-LD -->
+    <script type="application/ld+json">
+            [
+              {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "Création de terrasses et allées",
+                "description": "Entreprise spécialisée en jardinage, aménagement paysager et entretien d'espaces verts à Nice.",
+                "url": "https://mursofya.github.io/lucasjardins/",
+                "logo": "https://mursofya.github.io/lucasjardins/images/logo.png",
+                "telephone": "+33 4 93 00 00 00",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "1 rue Saint-François",
+                  "addressLocality": "Nice",
+                  "addressRegion": "PACA",
+                  "postalCode": "06000",
+                  "addressCountry": "FR"
+                },
+                "openingHours": "Mo-Fr 08:00-18:00",
+                "areaServed": {
+                  "@type": "Place",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Nice",
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
+                  }
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+33 4 93 00 00 00",
+                  "contactType": "customer service",
+                  "areaServed": "FR"
+                }
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "contentUrl": "https://mursofya.github.io/lucasjardins/images/ex.jpg",
+                "creator": {
+                  "@type": "LocalBusiness",
+                  "name": "Lucas Jardins"
+                },
+                "description": "Un magnifique jardin paysager créé par Lucas Jardins à Nice.",
+                "name": "Jardin paysager par Lucas Jardins"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Accueil",
+                    "item": "https://mursofya.github.io/lucasjardins/"
+                  }
+                ]
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Quels services propose Lucas Jardins ?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Lucas Jardins propose l'aménagement paysager, l'entretien de jardin, la création de terrasses, l'installation de clôtures, etc."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Où intervenez-vous ?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Nous intervenons principalement à Nice et dans la région PACA."
+                    }
+                  }
+                ]
+              }
+            ]
 </script>
 </head>
   
@@ -92,7 +148,7 @@
                     </ul>
                 </nav>
              </div>
-	<script src="clotureportail.js"></script>
+	<script src="creation.js"></script>
         </header>
 	       
 	  <div class="hero-section">
