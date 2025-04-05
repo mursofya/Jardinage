@@ -2,7 +2,10 @@ Joyeux anniversaire à vous !
 
 🟢 Personne 1 : SOFYA 
 
-Page d’accueil  / Service 1 : Aménagement paysager  / Service 2 : Entretien de jardin / Page personnelle
+Page d’accueil + Menu (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
+Service 1 : Aménagement paysager (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
+Service 2 : Entretien de jardin (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
+Page personnelle (HTML (+ JSON, OGP et Twitter Cards), CSS, JS)
 
 🔵 Personne 2 : LOUIS 
 
