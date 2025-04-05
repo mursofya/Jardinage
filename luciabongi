@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="lucia bongi.css">
+    <link rel="stylesheet" href="luciabongi.css">
     <title>Lucia Bongi</title>
     <meta name="description" content="Découvrez les parcours de Lucia Bongi.">
     
@@ -17,7 +17,7 @@
     <h1>Lucia Bongi</h1>
     <nav>
         <ul>
-            <li><a href="#lucia-bongi">Lucia Bongi</a></li>
+            <li><a href="#lucia-bongi"> 20 ans </a></li>
         </ul>
     </nav>
 </header>
@@ -25,7 +25,7 @@
 <main>
     <!-- Section pour Lucia Bongi -->
     <section id="lucia-bongi">
-        <h2>Lucia Bongi : Étudiante en Information Communication</h2>
+        <h2>Étudiante en Information Communication</h2>
         <nav>
             <ul>
                 <li><a href="#enfance">Enfance</a></li>
@@ -34,8 +34,8 @@
     </section>
 
     <section id="enfance">
-        <h3>Enfance de Lucia Bongi</h3>
-        <p>Je m'appelle Lucia Bongi et je suis née à Grasse le 30 septembre 2004. J’ai des origines italiennes du côté de ma mère et de mon père.</p>
+        <h3>Enfance et Origines</h3>
+        <p>Je m'appelle Lucia Bongi et je suis née à Grasse le 30 septembre 2004. J’ai des origines italiennes du côté de ma mère et de mon père. Depuis mon enfance, j'ai toujours été curieuse et ouverte aux nouvelles expériences, ce qui m'a poussée à m'investir dans différents projets créatifs et professionnels.</p>
                 </section>
         
                 <nav>
@@ -88,7 +88,7 @@
                 
             <section id="projets">
                 <h3>Projets et Ambitions</h3>
-                    <p>Mon objectif professionnel est de devenir journaliste, spécialisé soit dans la mode, soit dans les faits divers. Ce métier me passionne.</p>
+                    <p>Mon objectif professionnel est de devenir journaliste, spécialisé dans la mode ou les faits divers. J'ai récemment travaillé sur un projet de création de contenu numérique, ce qui m'a permis de perfectionner mes compétences en communication et en rédaction. Mon stage à La Strada m’a donné une expérience précieuse en rédaction, où j'ai appris à toucher un large public à travers des articles et des chroniques culturelles. Ce projet m’a confirmé mon envie de m'investir dans le journalisme. J'aime ce métier pour la possibilité de donner la parole aux gens, de raconter des histoires et de faire réfléchir à travers l'écriture.</p>
                 </section>
                 <!DOCTYPE html>
 <html lang="fr">
@@ -99,25 +99,9 @@
 </head>
 <body>
 
-    <main>
-        <section id="philosophie">
-            <h3>Philosophie</h3>
-            <p>Pour moi, être informé et cultivé est essentiel pour comprendre le monde qui nous entoure, et c’est précisément ce qui m’attire.</p>
-        </section>
-
-        <section id="projets">
-            <h3>Projets et Ambitions</h3>
-            <p>Mon objectif professionnel est de devenir journaliste, spécialisé soit dans la mode, soit dans les faits divers. Ce métier me passionne.</p>
-        </section>
-
-    </main>
-
     <footer>
         <p>Projet Web - Lucia Bongi</p>
     </footer>
 
 </body>
 </html>
-
-                
-        
