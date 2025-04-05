@@ -236,6 +236,7 @@ background-repeat: no-repeat;
 color: #FAF3DD;
 font-size: 65px;
 display: flex;
+text-align: center;
 justify-content: center; /* Centrage horizontal */
 align-items: center; /* Centrage vertical */
 font-family: 'Staatliches';
