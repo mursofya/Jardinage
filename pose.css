@@ -243,13 +243,6 @@ margin-top: 1%;
 margin-bottom: 1%;
 }
 
-.info-section p {
-color: #FAF3DD;
-font-size: 25px;
-margin-top: 1%;
-margin-bottom: 1%;
-}
-
 a[href^="mailto"] {
 text-decoration: none;
 color: inherit;
@@ -326,10 +319,6 @@ footer{
 
   .info-section h2{
     font-size: 40px;
-  }
-
-  .info-section p {
-    font-size: 16px;
   }
   
   footer {
@@ -408,10 +397,6 @@ body {
   .info-section ul li {
     font-size: 18px;
   }
-
-  .info-section p {
-    font-size: 18px;
-  }
  
   footer {
     display: flex;
@@ -463,10 +448,6 @@ body {
     }
 
     .info-section ul li {
-      font-size: 15px;
-    }
-  
-    .info-section p {
       font-size: 15px;
     }
 
