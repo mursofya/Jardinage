@@ -1,0 +1,851 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid-container { 
+    display: grid;
+    grid-template-areas:
+        'bloc1 bloc2 bloc2 bloc2'
+        'left right right right';
+    grid-column-gap: 10px;
+}
+
+
+
+header .bloc1{
+    grid-area: header;
+    display: grid;
+}
+img{
+    width: 20vw;
+    border-radius: 100%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+header .photo{
+    background-color: #ffd6e7;
+    margin-bottom: 15%;
+    height: 100%;
+}
+
+
+
+header .bloc2{
+    grid-area: header;
+    display: grid;
+}
+header .name{
+    margin-left: 20%;
+}
+.prenom{
+    color: #cfa4b5;
+    font-size: 400%;
+    margin-top: 55%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nom{
+    font-size: 400%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -50%;
+    margin-left: 95%;
+}
+.name h2{
+    margin-top: -25%;
+    width: 150%;
+}
+.name hr{
+    width: 30%;
+    margin-left: 0%;
+    margin-top: -5%;
+    color: #cfa4b5;
+    border-style: solid;
+}
+
+
+
+.left{
+    grid-area: left;
+    display: grid;
+    background-color: #ffd6e7;
+}
+.cont{
+    background-color: #cfa4b5;
+    color: #fff0f2;
+    height: 30%;
+    text-align: center;
+    padding: 3%;
+    margin-top: -2%;
+}
+.prop{
+    background-color: #cfa4b5;
+    color: #fff0f2;
+    height: 30%;
+    text-align: center;
+    padding: 3%;
+    margin-top: -2%;
+}
+.lois{
+    background-color: #cfa4b5;
+    color: #fff0f2;
+    height: 8%;
+    text-align: center;
+    padding: 3%;
+    margin-top: 50%;
+    margin-bottom: 15%;
+}
+
+
+#left1{
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+
+#left2{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.icones{
+    margin-left: 10%;
+    margin-top: -13%;
+}
+.circle1{
+    border-radius: 100%;
+    border: 2px solid #9c7987;
+    padding: 3%;
+    width: 3vw;
+    height: 3vw;
+    display: inline-block;
+}
+.circle2{
+    border-radius: 100%;
+    border: 2px solid #9c7987;
+    padding: 3%;
+    width: 3vw;
+    height: 3vw;
+    display: inline-block;
+    margin-left: 18%;
+}
+.circle3{
+    border-radius: 100%;
+    border: 2px solid #9c7987;
+    padding: 3%;
+    width: 3vw;
+    height: 3vw;
+    display: inline-block;
+    margin-left: 18%;
+}
+.left .icones .fa-solid{
+    font-size: 3vw;
+    color: #9c7987;
+}
+.left .icones .circle2 .fa-music{
+    margin-left: -10%;
+}
+.left .icones .circle3 .fa-bicycle{
+    margin-left: -15%;
+}
+
+
+
+.right{
+    grid-area: right;
+    display: grid;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+.formation h2{
+    font-size: 150%;
+    margin-top: -4%;
+    margin-left: 10%;
+}
+.formation hr{
+    margin-top: -2%;
+    color: #cfa4b5;
+    border-style: solid;
+}
+.right .formation .fa-graduation-cap{
+    color: #cfa4b5;
+    font-size: 250%;
+}
+.texte1{
+    width: 65%;
+    margin-left: 35%;
+    text-align: justify;
+    margin-top: -7%;
+}
+.texte2{
+    width: 65%;
+    margin-left: 35%;
+    text-align: justify;
+    margin-top: -7%;
+}
+.title{
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 70%;
+}
+.entre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 90%;
+}
+.little{
+    font-size: 90%;
+}
+.ans{
+    margin-left: 5%;
+}
+.right .formation .ans .fa-circle-dot{
+    margin-left: -5%;
+    color: #cfa4b5;
+    margin-top: 10%;
+}
+.right .formation .ans .fa-circle{
+    margin-left: -5%;
+    color: #cfa4b5;
+    font-size: 90%;
+    margin-top: 6%;
+}
+.right .formation .ans .an1{
+    margin-top: -4%;
+    font-size: 90%;
+}
+.right .formation .ans .an2{
+    margin-top: -4%;
+    font-size: 90%;
+}
+
+
+.exp h2{
+    font-size: 150%;
+    margin-left: 10%;
+    margin-top: -4%;
+}
+.exp hr{
+    margin-top: -2%;
+    color: #cfa4b5;
+    border-style: solid;
+}
+.right .exp .fa-briefcase{
+    color: #cfa4b5;
+    font-size: 250%;
+    margin-top: 4%;
+}
+.texte3{
+    width: 65%;
+    margin-left: 35%;
+    text-align: justify;
+    margin-top: -7%;
+}
+.right .exp .ans .fa-circle-dot{
+    margin-left: -5%;
+    color: #cfa4b5;
+    margin-top: 10%;
+}
+.right .exp .ans .fa-circle{
+    margin-left: -5%;
+    color: #cfa4b5;
+    font-size: 90%;
+    margin-top: 6%;
+}
+.right .exp .ans .an1{
+    margin-top: -3%;
+    font-size: 90%;
+}
+.right .exp .ans .an2{
+    margin-top: -3%;
+    font-size: 90%;
+}
+.right .exp .ans .an3{
+    margin-top: -3%;
+    font-size: 90%;
+}
+
+
+.recom h2{
+    font-size: 150%;
+    margin-left: 10%;
+    margin-top: -3%;
+}
+.recom hr{
+    margin-top: -2%;
+    color: #cfa4b5;
+    border-style: solid;
+}
+.right .recom .fa-pencil{
+    color: #cfa4b5;
+    font-size: 250%;
+    margin-top: 4%;
+}
+.texte01{
+    margin-left: 0%;
+}
+.texte02{
+    margin-left: 70%;
+    margin-top: -13%;
+}
+
+
+.left h2:hover{
+    background-color: #a3496d;
+}
+.right h2:hover{
+    color: #c94e7f;
+}
+p:hover{
+    font-size: 110%;
+    color: #c4185d;
+}
+.circle1:hover{
+    background-color: #fff1f6;
+}
+.circle2:hover{
+    background-color: #fff1f6;
+}
+.circle3:hover{
+    background-color: #fff1f6;
+}
+
+
+
+@media screen and (max-width:1024px){
+    header .name{
+        margin-left: 10%;
+    }
+    .prenom{
+        margin-top: 25%;
+        font-size: 350%;
+    }
+    .nom{
+        font-size: 350%;
+        margin-top: -38%;
+        margin-left: 75%;
+    }
+    .name h2{
+        margin-top: -20%;
+        width: 150%;
+    }
+    .formation h2{
+        margin-top: -6%;
+    }
+    .exp h2{
+        margin-top: -6%;
+    }
+    .right .exp .ans .an1{
+        margin-top: -4%;
+        width: 20%;
+    }
+    .right .exp .ans .an2{
+        margin-top: -4%;
+        width: 20%;
+    }
+    .right .exp .ans .an3{
+        margin-top: -4%;
+        width: 20%;
+    }
+    .exp .texte1{
+        margin-top: -12%;
+    }
+    .exp .texte2{
+        margin-top: -12%;
+    }
+    .exp .texte3{
+        margin-top: -12%;
+    }
+    .recom h2{
+        margin-top: -6%;
+    }    
+    .texte02{
+        margin-left: 50%;
+        margin-top: -17%;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    header .name{
+        font-size: 90%;
+    }
+    #left1{
+        width: 70%;
+    }
+    .circle2{
+        margin-left: 15%;
+    }
+    .circle3{
+        margin-left: 15%;
+    }
+    .formation h2{
+        margin-left: 13%;
+    }
+    .formation hr{
+        margin-top: -4%;
+    }
+    .right .formation .ans .an1{
+        margin-top: -5%;
+    }
+    .right .formation .ans .an2{
+        margin-top: -5%;
+    }
+    .texte1{
+        margin-top: -10%;
+    }
+    .texte2{
+        margin-top: -10%;
+    }
+    .exp h2{
+        margin-left: 13%;
+        margin-top: -10%;
+    }
+    .exp hr{
+        margin-top: -4%;
+    }
+    .right .exp .ans .an1{
+        margin-top: -5%;
+    }
+    .right .exp .ans .an2{
+        margin-top: -5%;
+    }
+    .right .exp .ans .an3{
+        margin-top: -5%;
+    }
+    .exp .texte1{
+        margin-top: -15%;
+    }
+    .exp .texte2{
+        margin-top: -15%;
+    }
+    .exp .texte3{
+        margin-top: -15%;
+    }
+    .recom h2{
+        margin-left: 13%;
+    }
+    .recom hr{
+        margin-top: -4%;
+    }
+    .texte02{
+        margin-top: -21%;
+    }
+}
+
+
+@media screen and (max-width:695px){
+    .formation .title{
+        text-align: left;
+        width: 120%;
+    }
+    .texte01{
+        font-size: 90%;
+    }
+    .texte02{
+        margin-left: 55%;
+        margin-top: -22%;
+        font-size: 90%;
+    }
+    .prop{
+        height: 50%;
+    }
+    .lois{
+        height: 15%;
+    }
+}
+
+
+@media screen and (max-width:580px){
+    .grid-container { 
+        grid-template-areas:
+            'bloc1'
+            'bloc2'
+            'left'
+            'right';
+    }
+    header .photo{
+        margin-bottom: -15%;
+    }
+    img{
+        width: 30vw;
+        border-radius: 20%;
+        margin-left: 60%;
+        margin-top: 7%;
+    }
+    .prenom{
+        font-size: 12vw;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+    .nom{
+        font-size: 11vw;
+        margin-top: -16%;
+        margin-left: -1%;
+    }
+    .name h2{
+        margin-top: -21%;
+        font-size: 3vw;
+        width: 30%;
+        margin-left: 67%;
+        margin-bottom: 30%;
+    }
+    .name hr{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: -29%;
+        margin-bottom: 7%;
+    }
+    .cont{
+        height: 40%;
+        font-size: 8vw;
+        padding: 3%;
+    }
+    .ad{
+        margin-top: -7%;
+    }
+    .tel{
+        margin-top: -3.5em;
+        margin-left: 60%;
+    }
+    #left1{
+        width: 90%;
+        margin-bottom: 1%;
+    }
+    .skype{
+        margin-top: -3.5em;
+        margin-left: 60%;
+    }
+    .prop{
+        height: 40%;
+        font-size: 8vw;
+        padding: 3%;
+    }
+    #left2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -8%;
+    }
+    .lois{
+        height: 30%;
+        font-size: 8vw;
+        padding: 3%;
+        margin-top: 1%;
+    }
+    .circle1{
+        width: 8vw;
+        height: 8vw;
+        margin-top: 0%;
+        margin-bottom: 3%;
+    }
+    .circle2{
+        width: 8vw;
+        height: 8vw;
+        margin-top: 0%;
+        margin-bottom: 3%;
+        margin-left: 20%;
+    }
+    .circle3{
+        width: 8vw;
+        height: 8vw;
+        margin-top: 0%;
+        margin-bottom: 3%;
+        margin-left: 20%;
+    }
+    .left .icones .fa-solid{
+        font-size: 8vw;
+    }
+    .right .formation .fa-graduation-cap{
+        margin-top: 7%;
+        font-size: 300%;
+        margin-left: 4%;
+    }
+    .right{
+        margin-left: 9%;
+        margin-right: 9%;
+    } 
+    .formation h2{
+        font-size: 280%;
+        margin-top: -10%;
+        margin-left: 20%;
+    }
+    .formation hr{
+        margin-top: -8%;
+    }
+    .exp h2{
+        font-size: 220%;
+        margin-top: -15%;
+        margin-left: 20%;
+    }
+    .right .exp .fa-briefcase{
+        font-size: 300%;
+        margin-top: 7%;
+        margin-left: 4%;
+    }
+    .recom h2{
+        font-size: 180%;
+        margin-top: -8%;
+        margin-left: 20%;
+    }
+    .right .recom .fa-pencil{
+        font-size: 300%;
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    .texte02{
+        margin-top: -18%;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .texte02{
+        margin-top: -20%;
+    }
+}
+
+
+@media screen and (max-width:467px){
+    .formation h2{
+        font-size: 260%;
+        margin-top: -13%;
+        margin-left: 22%;
+    }
+    .texte1{
+        width: 70%;
+        margin-left: 30%;
+        margin-top: -12%;
+    }
+    .texte2{
+        width: 70%;
+        margin-left: 30%;
+        margin-top: -12%;
+    }
+    .exp h2{
+        font-size: 200%;
+    }
+    .right .exp .ans .an1{
+        font-size: 80%;
+    }
+    .right .exp .ans .an2{
+        font-size: 80%;
+    }
+    .right .exp .ans .an3{
+        font-size: 80%;
+    }
+    .texte3{
+        width: 70%;
+        margin-left: 30%;
+        margin-top: -12%;
+    }
+    .recom h2{
+        font-size: 170%;
+    }
+    .texte02{
+        margin-top: -22%;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .formation h2{
+        font-size: 240%;
+    }
+    .right .formation .ans .an1{
+        margin-top: -6%;
+        font-size: 85%;
+        margin-left: 1%;
+    }
+    .right .formation .ans .an2{
+        margin-top: -6%;
+        font-size: 85%;
+        margin-left: 1%;
+    }
+    .texte1{
+        margin-top: -14%;
+    }
+    .texte2{
+        margin-top: -14%;
+    }
+    .exp h2{
+        font-size: 180%;
+    }
+    .right .exp .ans .an1{
+        margin-top: -6%;
+        margin-left: 1%;
+    }
+    .right .exp .ans .an2{
+        margin-top: -6%;
+        margin-left: 1%;
+    }
+    .right .exp .ans .an3{
+        margin-top: -6%;
+        margin-left: 1%;
+    }
+    .exp .texte1{
+        margin-top: -18%;
+    }
+    .exp .texte2{
+        margin-top: -19%;
+    }
+    .exp .texte3{
+        margin-top: -18%;
+    }
+    .recom h2{
+        font-size: 150%;
+    }
+    .texte01{
+        font-size: 80%;
+    }
+    .texte02{
+        margin-top: -22%;
+        font-size: 80%;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .right{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .formation h2{
+        font-size: 200%;
+        margin-top: -11%;
+    }
+    .formation hr{
+        margin-top: -5%;
+    }
+    .right .formation .fa-graduation-cap{
+        font-size: 250%;
+    }
+    .formation .title{
+        line-height: 100%;
+        width: 90%;
+    }
+    .texte1{
+        margin-top: -16%;
+    }
+    .texte2{
+        margin-top: -16%;
+    }
+    .exp h2{
+        font-size: 160%;
+    }
+    .right .exp .fa-briefcase{
+        font-size: 260%;
+        margin-top: 7%;
+        margin-left: 4%;
+    }
+    .recom h2{
+        font-size: 130%;
+    }
+    .right .recom .fa-pencil{
+        font-size: 250%;
+    }
+    .recom hr{
+        margin-top: -3%;
+    }
+}
+
+
+@media screen and (max-width:381px){
+    .right .exp .ans .an1{
+        width: 25%;
+    }
+    .right .exp .ans .an2{
+        width: 25%;
+    }
+    .right .exp .ans .an3{
+        width: 25%;
+    }
+    .texte02{
+        margin-top: -23%;
+    }
+}
+
+
+@media screen and (max-width:346px){
+    #left1{
+        font-size: 90%;
+    }
+    #left2{
+        font-size: 90%;
+    }
+    .formation h2{
+        font-size: 180%;
+        margin-top: -11%;
+    }
+    .right .formation .fa-graduation-cap{
+        font-size: 220%;
+    }
+    .right .formation .ans .an1{
+        margin-top: -7%;
+        margin-left: 2%;
+        font-size: 75%;
+    }
+    .right .formation .ans .an2{
+        margin-top: -7%;
+        margin-left: 2%;
+        font-size: 75%;
+    }
+    .formation .texte1{
+        font-size: 90%;
+        margin-top: -16%;
+    }
+    .formation .texte2{
+        font-size: 90%;
+        margin-top: -16%;
+    }
+    .exp h2{
+        font-size: 140%;
+        margin-top: -15%;
+    }
+    .right .exp .fa-briefcase{
+        font-size: 240%;
+        margin-top: 7%;
+        margin-left: 4%;
+    }
+    .right .exp .ans .an1{
+        margin-top: -7%;
+        margin-left: 2%;
+        font-size: 75%;
+    }
+    .right .exp .ans .an2{
+        margin-top: -7%;
+        margin-left: 2%;
+        font-size: 75%;
+    }
+    .right .exp .ans .an3{
+        margin-top: -7%;
+        margin-left: 2%;
+        font-size: 75%;
+    }
+    .exp .texte1{
+        font-size: 90%;
+        margin-top: -20%;
+    }
+    .exp .texte2{
+        font-size: 90%;
+        margin-top: -20%;
+    }
+    .exp .texte3{
+        font-size: 90%;
+        margin-top: -20%;
+    }
+    .right .recom .fa-pencil{
+        font-size: 230%;
+    }
+    .recom h2{
+        font-size: 130%;
+    }
+    .texte01{
+        font-size: 75%;
+    }
+    .texte02{
+        margin-top: -24%;
+        font-size: 75%;
+        margin-left: 50%;
+    }
+}
